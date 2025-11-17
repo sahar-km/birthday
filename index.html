@@ -1,4 +1,4 @@
-<!-- Demo: https://nscl5.github.io/birthday
+<!-- Demo: https://sahar-km.github.io/birthday
      It can be deployed as a static site on "GitHub" and "Cloudflare" pages -->
 <!doctype html>
 <html lang="en">
@@ -370,23 +370,23 @@
         Congratulations on surviving another trip around the sun without being abducted by aliens
         👽👾👻
       </p>
-      <p class="final-f">All the best wishes from <b>Sahar</b> 🤍</p>
+      <p class="final-f">All the best wishes from <b>Sahar-km</b> 🤍</p>
       <div class="final-cake">🎂</div>
     </div>
 
     <script>
       const OWNER = "Sahar";
       const MESSAGES = {
-        fatemeh: {
-          name: "Fatemeh",
-          message: `Happy Birthday, Fatemeh 🥳
+        samin: {
+          name: "Samin",
+          message: `Happy Birthday, Samin 🥳
 
 It's been so great getting to know you in our class. You're a wonderful friend. 
 I hope you have an amazing day and a fantastic year ahead, full of happiness, health, and success ✨💛`,
         },
-        mohammad_hassan: {
-          name: "Mohammad Hassan",
-          message: `Happy Birthday, Mohammad Hassan 🎉
+        nima: {
+          name: "Nima",
+          message: `Happy Birthday, Nima 🎉
 
 Man, it's been fun having you in class all this time. You're a great guy. 
 Wishing you a very happy birthday and an awesome year. Hope it's filled with good times and new achievements.
@@ -396,16 +396,16 @@ Cheers 🤍🍻`,
       };
 
       const ALIASES = {
-        fatemeh: ["fatemeh", "fateme", "fatima", "fati", "فاطمه", "فاطی", "ft"],
-        mohammad_hassan: [
-          "mohammad hassan",
-          "mohamad hasan",
-          "mohammad",
-          "mohamad",
-          "mmd",
-          "محمد حسن",
-          "محمد",
-          "ممد",
+        samin: ["Samin", "Samini", "sam", "ثمین", "سمین", "ثمینی"],
+        nima: [
+          "Nima",
+          "Nimaa",
+          "Nimi",
+          "Nim",
+          "Ni",
+          "نیما",
+          "نیمی",
+          "نیم",
         ],
       };
 
@@ -429,8 +429,8 @@ Cheers 🤍🍻`,
             return key;
           }
         }
-        if (n.includes("fatemeh") || n.includes("فاطمه")) return "fatemeh";
-        if (n.includes("mohammad") || n.includes("محمد")) return "mohammad_hassan";
+        if (n.includes("samin") || n.includes("ثمین")) return "samin";
+        if (n.includes("nima") || n.includes("نیما")) return "nima";
         return null;
       }
 
